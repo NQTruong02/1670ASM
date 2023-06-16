@@ -1,0 +1,42 @@
+﻿@model IEnumerable<ASM_Bicycle_Shops.Models.CategoryProduct>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryProductDecription)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryProductDecription)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CategoryProductId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CategoryProductId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CategoryProductId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

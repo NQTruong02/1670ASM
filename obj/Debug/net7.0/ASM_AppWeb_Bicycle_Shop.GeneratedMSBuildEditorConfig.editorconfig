@@ -1,0 +1,193 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ASM_AppWeb_Bicycle_Shop
+build_property.RootNamespace = ASM_AppWeb_Bicycle_Shop
+build_property.ProjectDir = C:\1670\1670CodeFL\ASM_AppWeb_Bicycle_Shop-Demo\ASM_AppWeb_Bicycle_Shop\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\1670\1670CodeFL\ASM_AppWeb_Bicycle_Shop-Demo\ASM_AppWeb_Bicycle_Shop
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Admin/StatisticalReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3RhdGlzdGljYWxSZXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Cart/CheckOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDaGVja091dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/CategoryProducts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlQcm9kdWN0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/CategoryProducts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlQcm9kdWN0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/CategoryProducts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlQcm9kdWN0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/CategoryProducts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlQcm9kdWN0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/CategoryProducts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlQcm9kdWN0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Events/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/News/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/News/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/News/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/News/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/News/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/News/NewsUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xOZXdzVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Products/ListProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcTGlzdFByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Products/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcUHJvZHVjdERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Shared/Components/SmallCart/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU21hbGxDYXJ0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Shared/_NotificationPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb25QYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Shops/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Shops/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Shops/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1670/1670CodeFL/ASM_AppWeb_Bicycle_Shop-Demo/ASM_AppWeb_Bicycle_Shop/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ntx9ni3lom

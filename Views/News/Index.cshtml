@@ -1,0 +1,62 @@
+﻿@model IEnumerable<ASM_AppWeb_Bicycle_Shop.Models.News>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>News</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NewsTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NewsAuthor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NewsContent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NewsDate)
+            </th>
+
+            <th>
+                Img
+            </th>
+            <th>Option</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NewsTitle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NewsAuthor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NewsContent)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NewsDate)
+                </td>
+                <td>
+                    <img src="@Url.Content("~/UploadImg/" + item.EmpFileName)" height="120px" width="150px">
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.NewsId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.NewsId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.NewsId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

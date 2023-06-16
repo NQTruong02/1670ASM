@@ -1,0 +1,67 @@
+﻿@model ASM_AppWeb_Bicycle_Shop.Models.News
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h4>Edit News</h4>
+<hr />
+<div class="container">
+    <form asp-action="Edit" enctype="multipart/form-data" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="NewsId" />
+        <div class="form-group row">
+            <div class="col-25">
+                <label>News Title:</label>
+            </div>
+            <div class="col-75">
+                <input asp-for="NewsTitle" class="form-control" placeholder="Product name..." />
+                <span asp-validation-for="NewsTitle" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-25">
+                <label class="control-label">News Author:</label>
+            </div>
+            <div class="col-75">
+                <input asp-for="NewsAuthor" class="form-control" />
+                <span asp-validation-for="NewsAuthor" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-25">
+                <label class="control-label">News Content </label>
+            </div>
+            <div class="col-75">
+                <textarea asp-for="NewsContent" class="form-control" style="height:200px"></textarea>
+                <span asp-validation-for="NewsContent" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-25">
+                <label asp-for="NewsDate" class="control-label"> </label>
+            </div>
+            <div class="col-75">
+                <input asp-for="NewsDate" class="form-control" />
+                <span asp-validation-for="NewsDate" class="text-danger"></span>
+
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-25">
+                <label class="control-label">Img: </label>
+            </div>
+            <div class="col-75">
+                <input type="file" asp-for="ImageFile" class="form-control" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-primary" style="margin-right: -10px;margin-bottom: 10px" />
+            <a asp-action="Index" class="btn btn-outline-success" style="margin-bottom: 10px">Back to List</a>
+        </div>
+    </form>
+</div>

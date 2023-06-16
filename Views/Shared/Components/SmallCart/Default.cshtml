@@ -1,0 +1,12 @@
+﻿@model SmallCartViewModel
+
+@if (Model != null)
+{
+  
+    <p><b>@Model.TotalAmount.ToString("C2")</b></p>
+}
+else
+{
+    <p>$0</p>
+}
+

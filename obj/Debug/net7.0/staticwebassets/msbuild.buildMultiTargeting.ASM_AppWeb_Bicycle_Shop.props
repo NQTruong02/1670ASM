@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ASM_AppWeb_Bicycle_Shop.props" />
+</Project>

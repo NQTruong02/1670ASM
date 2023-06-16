@@ -1,0 +1,49 @@
+/* _content/ASM_AppWeb_Bicycle_Shop/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-ntx9ni3lom] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-ntx9ni3lom] {
+  color: #0077cc;
+}
+
+.btn-primary[b-ntx9ni3lom] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-ntx9ni3lom], .nav-pills .show > .nav-link[b-ntx9ni3lom] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-ntx9ni3lom] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-ntx9ni3lom] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-ntx9ni3lom] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-ntx9ni3lom] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-ntx9ni3lom] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

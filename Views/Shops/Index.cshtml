@@ -1,0 +1,83 @@
+﻿@model IEnumerable<ASM_AppWeb_Bicycle_Shop.Models.Shop>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1 class="h3 mb-2 text-gray-800">Store manager</h1>
+<p>
+    <a class="btn btn-outline-warning " asp-action="ExportExcel" asp-controller="Products">Export Excel</a>
+    @if (ViewBag.mess == "True")
+    {
+        <label class="text-success">Data ready to download</label>
+    }
+    else
+    {
+        <label class="text-danger">Please add data first</label>
+    }
+</p>
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">DataTables</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ProductName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ProductPrice)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Quantity)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CustomerName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Purchase_date)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.TotalRevenue)
+                        </th>
+                        <th>Option</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ProductName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ProductPrice)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Quantity)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CustomerName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Purchase_date)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TotalRevenue)
+                            </td>
+                            <td>
+                                <a class="btn btn-info" style="margin-bottom: 5px;" asp-action="Edit" asp-route-id="@item.Id">Edit</a><br>
+                                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a><br>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!-- /.container-fluid -->
